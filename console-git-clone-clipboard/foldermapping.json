@@ -1,12 +1,3 @@
-
-# Clone git repositories very easily from command line
-
-This tool allows you to clone git repositories with just few clicks.
-
-## Pre-requisites
-You will need to maintain categorized folders mapped in "folderMapping.json" file
-
-```
 {
 	"gitCloneAppSettings": {
 		"createDirIfNotExists": true,
@@ -14,7 +5,7 @@ You will need to maintain categorized folders mapped in "folderMapping.json" fil
 			{
 				"id": 1,
 				"displayName": "C#",
-				"path": "D:\\MyCode\\C#",
+				"path": "D:\\Yograj\\MyCode\\C#",
 				"displayOrder": "0",
 				"postClone": [
 					"start .",
@@ -25,14 +16,14 @@ You will need to maintain categorized folders mapped in "folderMapping.json" fil
 			{
 				"id": 2,
 				"displayName": "Java",
-				"path": "D:\\MyCode\\Java",
+				"path": "D:\\Yograj\\MyCode\\Java",
 				"displayOrder": "1",
 				"postClone": ["start ."]
 			},
 			{
 				"id": 3,
 				"displayName": "Nodejs",
-				"path": "D:\\MyCode\\Nodejs",
+				"path": "D:\\Yograj\\MyCode\\Nodejs",
 				"displayOrder": "2",
 				"postClone": [
 					"npm install"
@@ -41,7 +32,7 @@ You will need to maintain categorized folders mapped in "folderMapping.json" fil
 			{
 				"id": 4,
 				"displayName": "Angular",
-				"path": "D:\\MyCode\\Angular",
+				"path": "D:\\Yograj\\MyCode\\Angular",
 				"displayOrder": "3",
 				"postClone": [
 					"npm install"
@@ -50,7 +41,7 @@ You will need to maintain categorized folders mapped in "folderMapping.json" fil
 			{
 				"id": 5,
 				"displayName": "React",
-				"path": "D:\\MyCode\\React",
+				"path": "D:\\Yograj\\MyCode\\React",
 				"displayOrder": "4",
 				"postClone": [
 					"npm install",
@@ -60,20 +51,15 @@ You will need to maintain categorized folders mapped in "folderMapping.json" fil
 			{
 				"id": 6,
 				"displayName": "Powershell",
-				"path": "D:\\MyCode\\Powershell",
+				"path": "D:\\Yograj\\MyCode\\Powershell",
 				"displayOrder": "5"
+			},
+			{
+				"id": 7,
+				"displayName": "javascript",
+				"path": "D:\\Yograj\\MyCode\\javascript",
+				"displayOrder": "6"
 			}
 		]
 	}
 }
-
-```
-## Demo
-
-Insert gif or link to demo
-
-
-## Authors
-
-- [@YograjBere](https://www.github.com/YograjBere)
-
