@@ -5,7 +5,7 @@ This tool allows you to clone and categorize you favorite git repositories easil
 You can also execute command after clone. E.g. for angular/react/nodejs projects, *npm install* or for dotnet solutions, *dotnet restore*
 
 ## Pre-requisites
-You will need to maintain categorized folders mapped in "folderMapping.json" file
+You will need to maintain categorized folders mapping in "folderMapping.json" file
 
 ```
 {
